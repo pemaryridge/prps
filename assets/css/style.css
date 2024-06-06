@@ -157,12 +157,15 @@ header.fixed-top {
   padding: 50px 50px 50px 30px;
   border-radius: 30px;
   transition: all 0.35s linear;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .what-we-do .boxes-wrapper:hover {
   box-shadow: 0 4px 20px 0 #0000006e;
+  background-color: #2f8fee;
+  color: white;
 }
+
 
 .what-we-do .boxes-wrapper h3 {
   font-size: 24px;
@@ -191,8 +194,8 @@ header.fixed-top {
 }
 
 .what-we-do .boxes-wrapper:hover a {
-  color: white;
-  background-color: #2f8fee;;
+  color: #000000;
+  background-color: #d7e8f5;;
 }
 
 .what-we-do .boxes-wrapper a img {
