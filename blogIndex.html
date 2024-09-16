@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRPS Blog</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/line-icons.css">
+<link rel="stylesheet" href="./assets/css/style_2.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme ">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/img/logo/logoDGrey.png" alt="Devblog's logo" width="150" height="40" class="logo-light">
+          <img src="./assets/img/logo/logoDGrey.png" alt="Devblog's logo" width="250" class="logo-dark" style=" display:inline;">   
+          <span class="nav-span"
+          style="font-size: 20px; color: var(--foreground-primary)">
+          
+          </span>
+        </a>
+
+        <div class="btn-group">
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper" style="color:hsl(218, 23%, 23%);">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="https://pemaryridgeprimary.com" class="nav-link" style="color:hsl(214, 20%, 69%);">Home</a>
+            </li>
+
+            <li>
+              <a href="index.html#what-we-do" class="nav-link" style="color:hsl(214, 20%, 69%);">About Us</a>
+            </li>
+
+            <li>
+              <a href="index.html#footer" class="nav-link" style="color:hsl(214, 20%, 69%);">Contact</a>
+            </li>
+
+          </ul>
+
+          
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="./index.html#what-we-do" class="nav-link" >About us</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="index.html#footer" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Education</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Extracurriculars</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Community</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1" style="font-size: 55px">
+            <b><span style="color: #2f8fee;">Welcome to our</span></b>
+            <br><span style="color:hsl(218, 36%, 66%);">Blog Page</span>
+          </h1>
+
+          <p class="h3" style="color:hsl(218, 36%, 66%);">
+            All Things Pemary Ridge Primary
+          </p>
+
+          <div class="btn-group">
+            <a href="index.html#footer" class="btn btn-primary" style="background-color: #2f8fee;">Contact Us</a>
+            <a href="index.html#what-we-do" class="btn btn-secondary" >About Pemary Ridge Primary</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/img/heroStudentsBlog.png" alt="Blog-Hero" style="height: 500px; width: 500px;" class="hero-img">
+      
+          
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">Latest Blog Posts</h2>
+
+          <div class="blog-card-group">
+
+            <div id="#blog1" class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/img/blog/012 (5).png" style="height: 245px;" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Community</button>
+
+                <h3>
+                  <a href="#blog1" class="h3">
+                    2024 Mandela Day Event
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  Honorable MEC Meyer marked Mandela Day by visiting Pemary Ridge Primary School in Reservoir Hills to clean and paint the school's jungle gym. The school, under the leadership of Principal Mr D. R. Sewsunker,
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/img/logo/blogLogo.png" alt="Julia Walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="https://pemaryridgeprimary.com" class="h4">Pemary Ridge Primary</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">July 18, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">2 min</time>
+                    </p>
+                  </div>
+
+                </div>
+              
+              </div>
+              
+
+            </div>
+            
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/img/blog/012 (4).png" style="height: 245px;" alt="Fast web page loading on a $20 feature phone" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Learning</button>
+
+                <h3><a href="#blog2" class="h3">2024 Mandela Day Coding Tornament</a></h3>
+
+                <p class="blog-text">
+                  On Mandela Day, learners from Pemary Ridge Primary School proudly showcased their coding skills in a local tournament 
+                  designed to celebrate innovation and technology. Grade 6 and 7 students participated in the event, which was held to 
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/img/logo/blogLogo.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="https://pemaryridgeprimary.com" class="h4">Pemary Ridge Primary</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">July 18, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/img/blog/012 (6).png" style="height: 245px;" alt="Accessibility Tips for Web Developers" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Event</button>
+
+                <h3><a href="#blog3" class="h3">Exceling in Spelling Bee Competition</a></h3>
+
+                <p class="blog-text">
+                  Pemary Ridge Primary School's learners (Skylah Pillay, Kimara Sewbhajan andUshriya Raghunanadan) recently showcased their 
+                  spelling prowess at the Spelling Bee Competition held at Lyndhurst Primary. The event was a vibrant display of spelling 
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/img/logo/blogLogo.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="https://pemaryridgeprimary.com" class="h4">Pemary Ridge Primary</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">July 29, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">2 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/img/blog/012 (3).png" style="height: 245px;" alt="Dynamically Securing Databases using Hashicorp Vault"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Event</button>
+
+                <h3><a href="#blog4" class="h3">A Spectacular Musical Extravaganza</a></h3>
+
+                <p class="blog-text">
+
+                  Pemary Ridge Primary was alive with the sounds of music, as students from all grades showcased their extraordinary 
+                  talents in a much-anticipated musical extravaganza. The event, which drew an enthusiastic crowd of parents, teachers, 
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/img/logo/blogLogo.png" alt="PRPS" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="https://pemaryridgeprimary.com" class="h4">Pemary Ridge Primary</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">August 03, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/img/blog/012 (2).png" style="height: 245px;"
+                  alt="Adaptive Loading - Improving Web Performance on low-end devices" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Extracurricular</button>
+
+                <h3><a href="#blog5" class="h3">Our New Mathematics Club</a></h3>
+
+                <p class="blog-text">
+
+                  The corridors of Pemary Ridge Primary School are buzzing with excitement as the newly established Mathematics Club 
+                  opens its doors to eager learners. Launched this term, the club has quickly become a hub for students who share a 
+                  passion for numbers, problem-solving, and mathematical exploration.
+
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/img/logo/blogLogo.png" alt="PRPS" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="https://pemaryridgeprimary.com" class="h4">Pemary Ridge Primary</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">August 27, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/img/blog/012.png" style="height: 245px;"
+                  alt="Don't Develop Just for Yourself - A Developer's Checklist to Accessibility" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Students</button>
+
+                <h3><a href="#blog6" class="h3">Grade 7's Entrepreneurs Day</a></h3>
+
+                <p class="blog-text">
+                
+                  he Grade 7 learners of Pemary Ridge Primary School demonstrated their creativity and business acumen during their annual 
+                  Entrepreneurs Day. The event, eagerly anticipated by students and teachers alike, saw the young entrepreneurs setting up 
+                
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/img/logo/blogLogo.png" alt="PRPS" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="https://pemaryridgeprimary.com" class="h4">Pemary Ridge Primary</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">August 30, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>            
+
+          </div>
+
+          <button class="btn load-more"><a href="./index.html" style="color:hsl(218, 23%, 23%);">Home</a></button><br><br>
+
+          <div class="accordion dark-theme">
+            <div class="accordion-item dark-theme" id="blog1">
+              <h2 class="accordion-header dark-theme">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" style="background-color: var(--background-secondary); color: var( --foreground-primary);" aria-expanded="true" aria-controls="collapseOne">
+                  2024 Mandela Day Event
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="blog1" data-bs-parent="#accordionExample">
+                <div class="accordion-body" style="background-color: var(--background-primary); color: var(--foreground-secondary);">
+                  Honorable MEC Meyer marked Mandela Day by visiting Pemary Ridge Primary School in Reservoir Hills to clean and paint the school's jungle gym.
+                  The school, under the leadership of Principal Mr D. R. Sewsunker, sustained significant damage from severe storms and flooding in 2022 and
+                  continues to face financial and structural challenges. <br><br>
+
+                  <img src="./assets/img/blog/012 (5).png" alt="">
+
+                  <br>Grade 7 learners and Counselor Alicia Kissoon joined the effort, showcasing a strong community spirit and collective dedication to 
+                  restoring the school to its former state.  
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id="blog2">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" style="background-color: var(--background-secondary); color: var( --foreground-primary); aria-expanded="false" aria-controls="collapseTwo">
+                  2024 Mandela Day Coding Tornament
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="blog2" data-bs-parent="#accordionExample">
+                <div class="accordion-body" style="background-color: var(--background-primary); color: var(--foreground-secondary);" >
+
+                  On Mandela Day, learners from Pemary Ridge Primary School proudly showcased their coding skills in a local tournament 
+                  designed to celebrate innovation and technology. Grade 6 and 7 students participated in the event, which was held to 
+                  honor Nelson Mandela's legacy by empowering young minds through education.The tournament provided a platform for these 
+                  young coders to demonstrate their problem-solving abilities and creativity. Competing against other schools in the 
+                  region, the learners worked tirelessly on various coding challenges, displaying impressive teamwork and determination.<br><br>
+
+                  <img src="./assets/img/blog/012 (4).png" alt="">
+
+                  <br>Principal Mr Sewsunker expressed pride in the students' achievements, stating, "Our learners have shown great 
+                  enthusiasm and dedication to learning new skills. Events like this not only honor Mandela's legacy but also prepare our 
+                  students for a future in technology."The event was a resounding success, leaving students, teachers, and parents alike 
+                  inspired by the potential of the next generation of tech leaders. <br><br>
+
+                  Pemary Ridge Primary School continues to emphasize the importance of integrating technology into the curriculum, ensuring 
+                  that their learners are well-equipped for the digital age.
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id="blog3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" style="background-color: var(--background-secondary); color: var( --foreground-primary); aria-expanded="false" aria-controls="collapseThree">
+                  Pemary Ridge Primary Excels in Spelling Bee Competition
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="blog3" data-bs-parent="#accordionExample">
+                <div class="accordion-body" style="background-color: var(--background-primary); color: var(--foreground-secondary);">
+                  
+                  Pemary Ridge Primary School's learners (Skylah Pillay, Kimara Sewbhajan and Ushriya Raghunanadan) recently showcased their 
+                  spelling prowess at the Spelling Bee Competition held at Lyndhurst Primary. <br><br>
+                  
+                  <img src="./assets/img/blog/012 (6).png" alt="">
+                  
+                  <br>The event was a vibrant display of spelling 
+                  skills and academic excellence, with Pemary Ridge Primary's participants standing out for their dedication and preparation. 
+                  The success of the learners not only brought pride to the school but also highlighted the strength of their educational programs.
+                
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id="blog4">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" style="background-color: var(--background-secondary); color: var( --foreground-primary); aria-expanded="false" aria-controls="collapseFour">
+                  Pemary Ridge Shines in Spectacular Musical Extravaganza
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="blog4" data-bs-parent="#accordionExample">
+                <div class="accordion-body" style="background-color: var(--background-primary); color: var(--foreground-secondary);">
+
+                  Pemary Ridge Primary was alive with the sounds of music, as students from all grades showcased their extraordinary 
+                  talents in a much-anticipated musical extravaganza. The event, which drew an enthusiastic crowd of parents, teachers, 
+                  and community members, was a resounding success, leaving everyone in attendance in awe of the learners' performances.
+                  The musical extravaganza was a vibrant display of the students' dedication and hard work. <br><br>
+
+                  The success of the event was not only a reflection of the students' talent but also the unwavering support from parents 
+                  and the wider community. The school would like to extend heartfelt thanks to all the parents who attended and 
+                  contributed in various ways. Your encouragement and involvement are invaluable to the students' growth and success.
+                  A special note of gratitude goes out to the teachers, who worked tirelessly to put this event together. From directing 
+                  and rehearsing with the students to managing the logistics of the production, their dedication ensured that the musical 
+                  was nothing short of spectacular. Their guidance and commitment were instrumental in bringing out the best in each 
+                  student, making the event one to remember. <br><br>
+
+                  <img src="./assets/img/blog/012 (3).png" alt="">
+
+                  <br>Principal MR DR Sewsunker expressed immense pride in the students, saying, "The talent displayed is a true 
+                  reflection of the hard work and passion that our learners put into everything they do. We are incredibly grateful to 
+                  the parents, sponsors and community members who supported this event, and to our teachers, whose efforts have made this 
+                  possible."<br><br>
+
+                  As the final notes of the performance echoed through the hall, the applause was a fitting end to a musical 
+                  that celebrated not just the arts, but the strong sense of community that defines Pemary Ridge Primary School. The 
+                  success of the musical extravaganza serves as a reminder of what can be achieved when students, teachers, parents, and 
+                  the community come together in support of one another.Plans are already underway for next year's event, and the 
+                  excitement is palpable. With such a strong foundation, there's no doubt that the future of the arts at Pemary Ridge 
+                  Primary is brighter than ever.
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id="blog5">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" style="background-color: var(--background-secondary); color: var( --foreground-primary); aria-expanded="false" aria-controls="collapseFive">
+                  New Mathematics Club Adds Excitement to School’s Extracurricular
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="blog5" data-bs-parent="#accordionExample">
+                <div class="accordion-body"style="background-color: var(--background-primary); color: var(--foreground-secondary);">
+
+                  The corridors of Pemary Ridge Primary School are buzzing with excitement as the newly established Mathematics Club 
+                  opens its doors to eager learners. Launched this term, the club has quickly become a hub for students who share a 
+                  passion for numbers, problem-solving, and mathematical exploration. <br><br>
+
+                  The Mathematics Club was created in response to 
+                  a growing interest among students for a platform where they could engage with mathematics beyond the classroom. 
+                  Mr. DR Sewsunker the school principal, explains, “The aim is to make mathematics more accessible and enjoyable for 
+                  students. We want them to see math not just as a subject, but as a tool for understanding the world.” <br><br>
+
+                  <img src="./assets/img/blog/012 (2).png" alt="">
+
+                  <br>The club meets weekly during break. During these sessions, students work on a variety of activities ranging from 
+                  mathematics games, solving challenging puzzles and discussing famous mathematical problems, to preparing for math 
+                  competitions and Olympiads. The club’s inclusive environment ensures that all students, regardless of their 
+                  mathematical ability, feel welcome. The focus is on growth and learning at your own pace. <br><br>
+
+                  Looking ahead, the club has ambitious plans. They hope to organize inter-school math competitions, participate 
+                  in national and international Olympiads, and perhaps even host a school-wide Mathematics Day. There are also 
+                  discussions about creating a student-led math tutoring program to help peers struggling with the subject. 
+                  “We’re just getting started, but the enthusiasm from the students is incredible,” says Mr. DR Sewsunker. 
+                  “I’m confident this club will not only improve our students’ mathematical abilities but also foster a deeper 
+                  appreciation for the subject.” <br><br>
+
+                  As the Mathematics Club continues to grow, it promises to be a cornerstone of Pemary Ridge Primary School’s 
+                  extracurricular offerings, inspiring students to explore the fascinating world of mathematics.
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id="blog6">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" style="background-color: var(--background-secondary); color: var( --foreground-primary);" aria-expanded="false" aria-controls="collapseSix">
+                  Grade 7 Learners Showcase Entrepreneurial Spirit on Entrepreneurs Day
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="blog6" data-bs-parent="#accordionExample">
+                <div class="accordion-body" style="background-color: var(--background-primary); color: var(--foreground-secondary);">
+
+                  he Grade 7 learners of Pemary Ridge Primary School demonstrated their creativity and business acumen during their annual 
+                  Entrepreneurs Day. The event, eagerly anticipated by students and teachers alike, saw the young entrepreneurs setting up 
+                  various stalls offering a wide range of products and services.From homemade treats to handcrafted goods, the learners 
+                  showcased not only their talents but also their understanding of key business principles such as budgeting, marketing, 
+                  and customer service. The event was a resounding success, with parents, teachers, and fellow students supporting the 
+                  budding entrepreneurs, making the day both educational and enjoyable. <br><br>
+
+                  <img src="./assets/img/blog/012.png" alt="">
+
+                  <br>Entrepreneurs Day is an integral part of the school's curriculum, aimed at instilling a sense of responsibility, 
+                  innovation, and financial literacy among students. The Grade 7 learners certainly rose to the occasion, leaving everyone 
+                  impressed with their enthusiasm and entrepreneurial spirit. As the day came to a close, the learners walked away with a 
+                  gdeeper understanding of what it takes to run a business, along with a sense of accomplishment for their hard work. <br><br>
+
+                  Congratulations to all the Grade 7 learners for making Entrepreneurs Day 2024 a memorable and successful event. <br>
+                  (In the attached photo is Mrs K. Kisoon and her grade 7 learners.)
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        
+
+
+
+
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Education</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+
+              <p>Extracurriculars</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Community</p>
+            </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2">Tags</h2>
+
+            <div class="wrapper">
+
+              <button class="hashtag">#Education</button>
+              <button class="hashtag">#Learning</button>
+              <button class="hashtag">#Students</button>
+              <button class="hashtag">#Extracurriculars</button>
+              <button class="hashtag">#Community</button>
+              <button class="hashtag">#School</button>
+              <button class="hashtag">#Growth</button>
+              <button class="hashtag">#Inspiration</button>
+              <button class="hashtag">#Success</button>
+              <button class="hashtag">#Development</button>
+
+            </div>
+
+          </div>
+
+          <div class="contact">
+
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Do you want to learn more about how I can help your company overcome? Let us have a
+                conversation.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.facebook.com/rsfreight" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="newsletter">
+
+            <h2 class="h2">Contact Us</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Send us your email and we will assist you as best we can!
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <button type="submit" class="btn btn-primary">Send</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./assets/img/logo/logoGrey.png" alt="DevBlog's Logo" width="150px" height="50" class="logo-light">
+          <img src="./assets/img/logo/logoGrey.png" alt="DevBlog's Logo" width="250" height="40" class="logo-dark">
+        </a>
+
+        <p class="footer-text">
+          Keeping up to date on all things <br>Pemary Ridge
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="https://pemaryridgeprimary.com" class="footer-link">Pemary Ridge</a>
+          </li>
+
+          <li>
+            <a href="index.html#what-we-do" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="index.html#footer" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="assets/priPol/rsWebPrivacyPolicy.pdf" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="assets/TsCs/rsTsCs.pdf" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2024 Pemary Ridge Primary. Designed & Maintained By <a href="https://icarusdigimarketing.com">Icarus Digital Marketing (Pty) Ltd.</a>
+    </p>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/app.js"></script>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.min.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
