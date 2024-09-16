@@ -44,13 +44,14 @@
       defer
     ></script>
     <script src="/assets/js/script.js" defer></script>
+    <script src="/assets/js/appSlider.js" defer></script>
   </head>
   <body>
     <!-- Header Start -->
     <header class="site-header py-3 fixed-top">
       <div class="container">
         <nav class="navbar navbar-expand-lg p-0">
-          <a class="navbar-brand p-0 m-0" href="index.html"><img src="assets/img/logo/logo111.png" alt="nav-logo" style="height: 50px;"><span>Pemary Ridge</span> Primary</a>
+          <a class="navbar-brand p-0 m-0" href="index.html"><img src="assets/img/logo/logoBlue.png" alt="nav-logo" style="height: 50px;"></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -72,11 +73,7 @@
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  >Resources<img
-                    src="assets/img/down-arrow.png"
-                    class="ms-2"
-                    alt="arrow"
-                /></a>
+                  >Resources ▼</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <a class="dropdown-item text-dark" href="#">Past Year Papers</a>
@@ -100,14 +97,14 @@
               <li class="nav-item">
                 <a
                   class="nav-link text-dark fw-regular btn btn-outline-success px-4 radius-10"
-                  href="#"
+                  href="./blogIndex.html"
                   >Blog</a
                 >
               </li>
               <li class="nav-item">
                 <a
                   class="nav-link text-white fw-regular btn btn-success px-4 radius-10"
-                  href="#"
+                  href="#footer"
                   >Contact Us</a>
               </li>
             </ul>
@@ -165,23 +162,23 @@
     <!-- Hero Banner End -->
 
     <!-- Who we are Start -->
-    <section class="what-we-do" id="what-we-do">
+    <section class="what-we-do bg-cover hero-section" id="what-we-do" style="background-image: url(assets/img/012.png);">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h2 class="sub-heading">Who We Are</h2>
-            <h5>
+            <h5 class="main-heading">
               At Pemary Ridge Primary School, we are committed to providing a nurturing and stimulating learning<br>environment
               where every child can thrive academically, socially, and emotionally.
             </h5>
           </div>
           <div class="col-md-4" style="padding-top: 30px;">
             <div class="boxes-wrapper">
-              <img src="assets/img/mission.png" alt="Activity" class="mb-3" style="height: 100px;"/>
+              <img src="assets/img/mission.png" alt="Activity" class="mb-3" style="height: 100px; width: 100px;"/>
               <h3>Our Mission</h3>
-              <p>Pemary Ridge Primary School strives for excellence in the holistic development of all learners
-                through quality teaching and learning in a safe environment. We aim to promote creativity and 
-                inculculate sound human values. We uphold religious tolerance and respect cultural diversity. </p>
+              <p><!--Pemary Ridge Primary -->Strive for excellence in the holistic development of all learners
+                through quality teaching & learning in a safe environment. Aim to promote creativity & 
+                inculculate sound human values. Uphold religious tolerance & respect cultural diversity.</p>
             </div>
             <!--
             To inspire and empower every student to reach their full potential and become confident & compassionate. 
@@ -190,7 +187,7 @@
           </div>
           <div class="col-md-4" style="padding-top: 30px;">
             <div class="boxes-wrapper">
-              <img src="assets/img/vision.png" alt="Heart" class="mb-3" style="height: 100px;"/>
+              <img src="assets/img/vision.png" alt="Heart" class="mb-3" style="height: 100px; width: 100px;"/>
               <h3>Our Vision</h3>
               <p>To empower every learner with sound human values and educational excellence to meet the challenges
                 in a demanding global an transformational society.
@@ -202,7 +199,7 @@
           </div>
           <div class="col-md-4" style="padding-top: 30px;">
             <div class="boxes-wrapper">
-              <img src="assets/img/academic.png" alt="Work" class="mb-3" style="height: 100px;"/>
+              <img src="assets/img/academic.png" alt="Work" class="mb-3" style="height: 100px; width: 100px;"/>
               <h3>Academic Excellence</h3>
               <p>Our dedicated team of educators is committed to delivering a comprehensive curriculum that challenges and 
                 engages students at every level. We embrace innovative teaching methods and technology to 
@@ -214,7 +211,11 @@
     </section>
     <!-- Who we are End -->
 
-    <!-- Our progress Start -->
+<!-- Slider Start -->
+
+ <!-- Slider End -->
+
+    <!-- Our progress Start
     <section class="our-progress">
       <div class="container">
         <div class="row">
@@ -245,15 +246,47 @@
         </div>
       </div>
     </section>
+  -->
 
+  <section class="hero-banner" id="blog-index" style="height: 645px;">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+          <img src="assets/img/heroStudents04.png" alt="Hero Banner Image" />
+        </div>
+
+        <div
+          class="col-md-6 d-flex flex-column align-items-start justify-content-center"
+        >
+          <h2>Visit our Blog Page</h2>
+          <p>
+            Explore our Blog Page to keep up to date with all things <br>Pemary Ridge Primary School.
+          </p>
+          <a
+            href="./blogIndex.html"
+            class="nav-link text-white fw-regular btn btn-success px-4 radius-10"
+            >View Blog Page
+          </a>
+        </div>
+
+      </div>
+    </div>
+   
+  </section>
+
+
+
+
+  
     <!-- Our progress End -->
 <!-- What we do Start -->
-    <section class="what-we-do" id="what-we-do">
+    <section class="what-we-do bg-cover hero-section" id="what-we-do" style="background-image: url(assets/img/014.png);">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h5 class="sub-heading">COMMUNITY PROGRAMMES</h5>
-            <h5>
+            <h5 class="main-heading">
               At Pemary Ridge Primary School, we are proud to be at the heart of our community. 
               Our facilities are not just<br>for our students but are available to support various 
               community programmes that enrich and engage our<br>neighborhood.
@@ -261,7 +294,7 @@
           </div>
           <div class="col-md-4" style="padding-top: 30px;">
             <div class="boxes-wrapper">
-              <img src="assets/img/swim.png" alt="Activity" class="mb-3" style="height: 100px;" />
+              <img src="assets/img/swim.png" alt="Activity" class="mb-3" style="height: 100px; width: 100px;" />
               <h3>SWIMMING</h3>
               <p>Our school swimming pool is open to the public for recreational use and swimming events</p>
               <a href="#"
@@ -271,7 +304,7 @@
           </div>
           <div class="col-md-4" style="padding-top: 30px;">
             <div class="boxes-wrapper">
-              <img src="assets/img/soccer.png" alt="Heart" class="mb-3" style="height: 100px;"/>
+              <img src="assets/img/soccer.png" alt="Heart" class="mb-3" style="height: 100px; width: 100px;"/>
               <h3>LOCAL SOCCER PRACTICES</h3>
               <p>School grounds are available for local soccer practices and community sports events</p>
               <a href="#"
@@ -281,7 +314,7 @@
           </div>
           <div class="col-md-4" style="padding-top: 30px;">
             <div class="boxes-wrapper">
-              <img src="assets/img/religious.png" alt="Work" class="mb-3" style="height: 100px;"/>
+              <img src="assets/img/religious.png" alt="Work" class="mb-3" style="height: 100px; width: 100px;"/>
               <h3>RELIGIOUS GATHERINGS</h3>
               <p>Classrooms are provided for community religious gatherings and spiritual meetings</p>
               <a href="#"
@@ -291,7 +324,7 @@
           </div>
           <div class="col-md-6" style="padding-top: 25px;">
             <div class="boxes-wrapper">
-              <img src="assets/img/community.png" alt="Activity" class="mb-3" style="height: 100px;"/>
+              <img src="assets/img/community.png" alt="Activity" class="mb-3" style="height: 100px; width: 100px;"/>
               <h3>COMMUNITY GATHERINGS</h3>
               <p>Our multipurpose room is perfect for hosting various community gatherings and events</p>
               <a href="#"
@@ -301,7 +334,7 @@
           </div>
           <div class="col-md-6" style="padding-top: 25px;">
             <div class="boxes-wrapper">
-              <img src="assets/img/elections.png" alt="Heart" class="mb-3" style="height: 100px;"/>
+              <img src="assets/img/elections.png" alt="Heart" class="mb-3" style="height: 100px; width: 100px;"/>
               <h3>IEC ELECTION CENTRE</h3>
               <p>Our school serves as a venue for national South African elections</p>
               <a href="#"
@@ -403,7 +436,7 @@
             showcase the vibrant life at Pemary Ridge Primary School.
           </p>
           <a
-            href="#"
+            href="./gallery.html"
             class="nav-link text-white fw-regular btn btn-success px-4 radius-10"
             >View Gallery
           </a>
@@ -418,8 +451,8 @@
 
     <!-- Testimonials Start -->
     <section id="home">
-    <div class="overlay"></div>
-    <div class="testimonials bg-cover hero-section" style="background-image: url(assets/img/111.png);">
+    
+    <div class="testimonials bg-cover hero-section" style="background-image: url(assets/img/013.png);">
       <div class="container" style="padding-top: 50px;">
         <div class="row">
           <div class="col-md-12">
@@ -500,8 +533,8 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 col-lg-6 text-center">
-            <h5 class="sub-heading">SUBSCRIBE</h5>
-            <h2 class="main-heading">
+            <h5 class="bottom-heading" style="color: #2f8fee;" >SUBSCRIBE</h5>
+            <h2 class="main-heading" style="color: hsl(218, 23%, 23%);" >
               Subscribe to get the latest <span>@Pemary Primary</span>
             </h2>
             <p>
@@ -526,7 +559,7 @@
     <!-- Newsletter End -->
     <!-- Footer Start -->
 
-    <footer class="site-footer">
+    <footer class="site-footer" id="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-5">
@@ -581,5 +614,9 @@
     </footer>
 
     <!-- Footer End -->
+
+    <!--javascript-->
+    <script src="app.js"></script>
+
   </body>
 </html>
