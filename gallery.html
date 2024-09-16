@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gallery • Pemary Ridge Primary School</title>
+
+  <!-- 
+    - custom js link
+  -->
+  <link rel="stylesheet" href="./assets/css/gallery.css">
+
+  <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- Scripts -->
+    <script
+      src="//ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      defer
+    ></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      defer
+    ></script>
+
+</head>
+
+<body style="background-color: hsl(210, 7%, 11%);">
+
+  <header class="site-header py-3 fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg p-0">
+        <a class="navbar-brand p-0 m-0" href="index.html"><img src="assets/img/logo/logoBlue.png" alt="nav-logo" style="height: 50px; "></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gx-5">
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle text-dark fw-regular"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Resources ▼</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item text-dark" href="#">Past Year Papers</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Curriculum</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-dark" href="#"
+                    >Downloadable Content</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-regular" href="#what-we-do">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-regular" href="#gallery-index">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-dark fw-regular btn btn-outline-success px-4 radius-10"
+                href="./blogIndex.html"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-regular btn btn-success px-4 radius-10"
+                href="#"
+                >Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container" style="padding-top: 75px;">
+
+    <div class="slider banner-slider" data-slider>
+      <h4 style="color: azure;">2024 Class Photos</h4>
+
+      <div class="slider-container" data-slider-container>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 1000; --height: 560;">
+            <img src="./images/movie-wide-1.jpg" width="1000" height="560" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 1000; --height: 560;">
+            <img src="./images/movie-wide-2.jpg" width="1000" height="560" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 1000; --height: 560;">
+            <img src="./images/movie-wide-3.jpg" width="1000" height="560" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 1000; --height: 560;">
+            <img src="./images/movie-wide-4.jpg" width="1000" height="560" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 1000; --height: 560;">
+            <img src="./images/movie-wide-5.jpg" width="1000" height="560" alt="" class="img-cover">
+          </div>
+        </div>
+
+      </div>
+
+      <button class="btn-icon slider-control prev" data-slider-prev>
+        <ion-icon name="arrow-back-sharp"></ion-icon>
+      </button>
+
+      <button class="btn-icon slider-control next" data-slider-next>
+        <ion-icon name="arrow-forward-sharp"></ion-icon>
+      </button>
+
+    </div>
+
+    <div class="slider card-slider" data-slider>
+      <h4 style="color: azure; padding-top: 10px;">Our Musical Extravaganza</h4>
+
+      <div class="slider-container" data-slider-container>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-01.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-02.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-03.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-04.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-05.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-06.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+      </div>
+
+      <button class="btn-icon slider-control prev" data-slider-prev>
+        <ion-icon name="arrow-back-sharp"></ion-icon>
+      </button>
+
+      <button class="btn-icon slider-control next" data-slider-next>
+        <ion-icon name="arrow-forward-sharp"></ion-icon>
+      </button>
+
+    </div>
+
+    <div class="slider card-slider" data-slider>
+      <h4 style="color: azure; padding-top: 10px;">2024 Class Photos</h4>
+
+      <div class="slider-container" data-slider-container>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-07.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-08.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-09.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-10.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-11.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+      </div>
+
+      <button class="btn-icon slider-control prev" data-slider-prev>
+        <ion-icon name="arrow-back-sharp"></ion-icon>
+      </button>
+
+      <button class="btn-icon slider-control next" data-slider-next>
+        <ion-icon name="arrow-forward-sharp"></ion-icon>
+      </button>
+
+    </div>
+
+    <div class="slider card-slider" data-slider>
+      <h4 style="color: azure; padding-top: 10px;">2024 Class Photos</h4>
+
+      <div class="slider-container" data-slider-container>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-12.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-13.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="card img-holder" style="--width: 500; --height: 750;">
+            <img src="./images/movie-14.jpg" width="500" height="750" alt="" class="img-cover">
+          </div>
+        </div>
+
+      </div>
+
+      <button class="btn-icon slider-control prev" data-slider-prev>
+        <ion-icon name="arrow-back-sharp"></ion-icon>
+      </button>
+
+      <button class="btn-icon slider-control next" data-slider-next>
+        <ion-icon name="arrow-forward-sharp"></ion-icon>
+      </button>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/gallery.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
